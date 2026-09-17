@@ -8,6 +8,8 @@ jobs:
         run: sudo apt update
       - name: Install php on 22
         run: sudo apt install php -y
+      - name: php version
+        run: php --version
   job2:
     runs-on: ubuntu-24.04
     steps:
